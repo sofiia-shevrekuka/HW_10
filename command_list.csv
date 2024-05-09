@@ -1,0 +1,74 @@
+  129  brew install git
+  130  $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  131  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  132  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  133  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  134  brew install git
+  135  (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/shevrekuka/.zprofile
+  136  eval "$(/opt/homebrew/bin/brew shellenv)"
+  137  eval "$(/opt/homebrew/bin/brew shellenv)"
+  138  brew install git
+  139  pwd
+  140  mkdir git-homework
+  141  cd git-homework
+  142  pwd
+  143  history -c && rm ~/.bash_history
+  144  history -c && rm ~/.bash_history
+  145  history -c
+  146  rm ~/.bash_history
+  147  git --version
+  148  pwd
+  149  cd git-homework
+  150  ls
+  151  history -c
+  152  history -c
+  153  git config --global user.email "sofia.shevrekuka@gmail.com"
+  154  git config --global user.name "sofia.shevrekuka"
+  155  git config --list
+  156  git config --global user.email "sofiia.shevrekuka@gmail.com"
+  157  git config --global user.name "sofiia.shevrekuka"
+  158  git config --global user.email "sofia.shevrekuka@gmail.com"
+  159  git clone https://github.com/sofiia-shevrekuka/HW_10.git
+  160  ls
+  161  pwd
+  162  cd HW_10
+  163  ls
+  164  ls -la
+  165  touch text_ignore.txt
+  166  vi .gitignore
+  167  vi .gitignore
+  168  git status
+  169  git status
+  170  vi .gitignore
+  171  git status
+  172  vi .gitignore
+  173  git status
+  174  git add .
+  175  git commit -m "updated gitignore to ignore text_ignore.txt file"
+  176  touch main_test.txt
+  177  git status
+  178  git add .
+  179  git commit -m "added main_test.txt"
+  180  git branch develop
+  181  git status
+  182  git checkout develop
+  183  touch develop_test.txt
+  184  git add .
+  185  git commit -m "added develop_test.txt"
+  186  git status
+  187  vi develop_test.txt
+  188  git status
+  189  git add .
+  190  git commit -m "changed develop_test.txt"
+  191  git checkout main
+  192  git merge develop
+  193  git status
+  194  git log
+  195  history > command_list.csv
+  196  vi command_list.csv
+  197  pwd
+  198  git statuc
+  199  git status
+  200  git add .
+  201  git commit -m "added command_list.csv"
+  202  git push origin
